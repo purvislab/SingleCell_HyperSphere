@@ -6,6 +6,9 @@
 ## Introduction 
 Spherical principal component analysis ([SPCA](https://doi.org/10.1111/rssb.12508)) is a manifold approximation method that assumes high-dimensional data lie on a low-dimensional sphere. We performed SPCA on multiplex, single-cell profiles of ER+/HER2- breast tumor cells (T47D) treated with varying doses of palbociclib, a CDK4/6 inhibitor. Here, we show that SPCA is an ideal method for preserving the inherent geometric structure of cell cycle data and characterizing dose response in comparison to other approaches, specifically Potential of Heat-diffusion for Affinity-based Trajectory Embedding ([PHATE](https://doi.org/10.1038/s41587-019-0336-3)) and principal component analysis (PCA). Using SPCA manifolds as a low-dimensional embedding for trajectory inference, Slingshot identified cell cycle trajectories that validated known cyclical trends of protein expression and pointed to potential mechanisms of CDK4/6 inhibitor resistance. 
 
+## Data Acess 
+The pre-processed single-cell T47D dataset (```.csv``` file) can be downloaded from [Zenodo](https://zenodo.org/records/13621367). 
+
 ## Installation and Example Usage 
 - Clone the git repository: 
 ```
